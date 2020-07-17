@@ -13,7 +13,7 @@
 		6BFD69BFF5AF6DA932D8FD8511008DBA /* Pods-template_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 11580EEBA4EF4976D70FA1E9C49E0C0D /* Pods-template_Tests-dummy.m */; };
 		AA494B2FB5DE3F9A1EB1CBECCDC641CE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		C430AD7758DD9303D4D7003B24B4D7CA /* template-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D441D077398AB8D37815B45661FD1AE9 /* template-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C658F890089C3E8B05E783550F6F868B /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7730480EDDC4E0DF26D7610DEB8089 /* ReplaceMe.swift */; };
+		C658F890089C3E8B05E783550F6F868B /* Addition.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7730480EDDC4E0DF26D7610DEB8089 /* Addition.swift */; };
 		D41593F93C5B3A140423F721FE2044BA /* Pods-template_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 85E9310F61CD031E4BD9251C1A2013B2 /* Pods-template_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E81709C3E8180F4AA981210D14A8EC11 /* Pods-template_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B3DD3E488CF60961239723375BC07F69 /* Pods-template_Example-dummy.m */; };
 		EF2686052A2540015CC43E50A7ABE49E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
@@ -67,7 +67,7 @@
 		D441D077398AB8D37815B45661FD1AE9 /* template-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "template-umbrella.h"; sourceTree = "<group>"; };
 		D63775F322DC7093443923162EF7E182 /* template.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = template.debug.xcconfig; sourceTree = "<group>"; };
 		D7E70CA3D901C6A28015B97E09668673 /* Pods_template_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_template_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DA7730480EDDC4E0DF26D7610DEB8089 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = template/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		DA7730480EDDC4E0DF26D7610DEB8089 /* Addition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Addition.swift; path = template/Classes/Addition.swift; sourceTree = "<group>"; };
 		E1F2F1966860A4498FC1B274BA0F9D45 /* Pods-template_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-template_Example-umbrella.h"; sourceTree = "<group>"; };
 		E81E3D330A316071631637261BE8CD7D /* Pods-template_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-template_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -215,7 +215,7 @@
 		F59D8F3ADF81F7AE6C96D230317048FB /* template */ = {
 			isa = PBXGroup;
 			children = (
-				DA7730480EDDC4E0DF26D7610DEB8089 /* ReplaceMe.swift */,
+				DA7730480EDDC4E0DF26D7610DEB8089 /* Addition.swift */,
 				89CA508C637FD22213360A76E0C2F8BA /* Pod */,
 				603EA65768F6445D800E1DD6383434EE /* Support Files */,
 			);
@@ -380,7 +380,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C658F890089C3E8B05E783550F6F868B /* ReplaceMe.swift in Sources */,
+				C658F890089C3E8B05E783550F6F868B /* Addition.swift in Sources */,
 				37FF7A191F5EC169595D1354CC223745 /* template-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

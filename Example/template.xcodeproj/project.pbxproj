@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0C714EC273983D791625093E /* Pods_template_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F156F951B2F5B740208A361C /* Pods_template_Example.framework */; };
+		4AC0794024C1956F004112A6 /* Pods_template_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F156F951B2F5B740208A361C /* Pods_template_Example.framework */; };
+		4AC0794124C1956F004112A6 /* Pods_template_Example.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F156F951B2F5B740208A361C /* Pods_template_Example.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
@@ -26,6 +27,20 @@
 			remoteInfo = template;
 		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4AC0794224C1956F004112A6 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				4AC0794124C1956F004112A6 /* Pods_template_Example.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		259296ADCD744387EB78F5BC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
@@ -54,7 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C714EC273983D791625093E /* Pods_template_Example.framework in Frameworks */,
+				4AC0794024C1956F004112A6 /* Pods_template_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -171,6 +186,7 @@
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
 				100CBD1AEE191F7BC765B8C6 /* [CP] Embed Pods Frameworks */,
+				4AC0794224C1956F004112A6 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
